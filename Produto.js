@@ -1,7 +1,6 @@
 function produto(lista){
-  var comprimento = lista.length;
-  var resultado = 1;
-  for (var i=0; i < comprimento; i++){
+  let resultado = 1;
+  for (let i=0; i < lista.length; i++){
     resultado = resultado * lista[i];
   }
   return resultado;
